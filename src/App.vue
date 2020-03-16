@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <router-link to="/">我是说</router-link>
+  <div class="app">
+    <!-- <router-link to="/">我是说</router-link> -->
+    <router-view></router-view>
   </div>
 </template>
 

@@ -8,8 +8,12 @@ import router from './router'
 import ElementUI from 'element-ui';
 //导入element-ui样式
 import 'element-ui/lib/theme-chalk/index.css';
+//导入index.css
+import app from './style/index.css'
 //使用element-ui
 Vue.use(ElementUI);
+//使用app
+Vue.use(app)
 Vue.config.productionTip = false
 
 //创建一个新的 vue 实例
